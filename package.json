@@ -1,0 +1,17 @@
+{
+  "name": "cypress-advanced-tau",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd trelloapp && npm start",
+    "postinstall": "cd trelloapp && npm i"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.3.3",
+    "typescript": "^5.2.2"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "ES2021",
+      "dom"
+    ],
+    "types": [
+      "cypress",
+      "node"
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@fixtures/*": [
+        "cypress/fixtures/*"
+      ],
+      "@support/*": [
+        "cypress/support/*"
+      ],
+      "@scripts/*": [
+        "workshop-scripts/*"
+      ]
+    },
+    "allowJs": false,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}
